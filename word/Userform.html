@@ -1,0 +1,374 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+    <!-- BEGIN: Head -->
+    <head>
+        <meta charset="utf-8">
+        <link href="./images/nxl-home.png" rel="shortcut icon">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Netxcell Wahtsapp Solutions">
+        <meta name="keywords" content="Netxcell Wahtsapp Solutions Reports">
+        <meta name="author" content="Netxcell">
+        <title>Create User </title>
+        <!-- BEGIN: CSS Assets-->
+        <link rel="stylesheet" href="./css_js/style.css" />
+        <style>
+
+
+        </style>
+        <!-- END: CSS Assets-->
+    </head>
+    <!-- END: Head -->
+    <body class="app">
+        <!-- BEGIN: Mobile Menu -->
+        <div class="mobile-menu md:hidden">
+            <div class="mobile-menu-bar">
+                <a href="https://www.netxcell.com" class="flex mr-auto">
+                    <img alt="Netxcell Logo" class="w-12" src="./images/nxl.logo.png">
+                </a>
+                <a href="javascript:;" id="mobile-menu-toggler"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-bar-chart-2 w-8 h-8 text-white transform -rotate-90"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg> </a>
+            </div>
+            <ul class="border-t border-theme-24 py-5 hidden">
+                <li>
+                    <a href="index.html" class="menu">
+                        <div class="menu__icon"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg> </div>
+                        <div class="menu__title"> Dashboard </div>
+                    </a>
+                </li>
+            
+                <li class="menu__devider my-6"></li>
+                
+                <li>
+                    <a href="javascript:;.html" class="menu menu--active">
+                       
+                        <div class="menu__icon"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-users"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg> </div>
+                        <div class="menu__title"> Users <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down menu__sub-icon"><polyline points="6 9 12 15 18 9"></polyline></svg> </div>
+                         
+                    </a>
+                    <ul class="menu__sub-open">
+                        <li>
+                            <a href="Userform.html" class="menu menu--active">
+                                <div class="menu__icon"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-activity"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg> </div>
+                                <div class="menu__title"> Create User </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Userslist.html" class="menu">
+                                <div class="menu__icon"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-activity"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg> </div>
+                                <div class="menu__title"> Users List </div>
+                            </a>
+                        </li>
+                    
+                    </ul>
+                </li>
+                     <!-- <li class="menu__devider my-6"></li> -->
+               
+                     <li>
+                        <a href="javascript:;" class="menu">
+                            <div class="menu__icon"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg></div>
+                            <div class="menu__title"> Reports <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down menu__sub-icon"><polyline points="6 9 12 15 18 9"></polyline></svg> </div>
+                        </a>
+                        <ul class="">
+                            <li>
+                                <a href="reports_tabular.html" class="menu">
+                                    <div class="menu__icon"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-activity"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg> </div>
+                                    <div class="menu__title"> Tabular Reports </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="reports_grpahical.html" class="menu">
+                                    <div class="menu__icon"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-activity"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg> </div>
+                                    <div class="menu__title"> Graphical Reports </div>
+                                </a>
+                            </li>
+                           
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:;" class="menu">
+                            <div class="menu__icon"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-users"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg> </div>
+                            <div class="menu__title"> Messaging <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down menu__sub-icon"><polyline points="6 9 12 15 18 9"></polyline></svg> </div>
+                        </a>
+                        <ul class="">
+                            <li>
+                                <a href="Message_Template.html" class="menu">
+                                    <div class="menu__icon"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-activity"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg> </div>
+                                    <div class="menu__title"> Message Template </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="Template_list.html" class="menu">
+                                    <div class="menu__icon"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-activity"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg> </div>
+                                    <div class="menu__title"> Template List </div>
+                                </a>
+                            </li>
+                           
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="account_setting.html" class="menu ">
+                            <div class="menu__icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-settings mx-auto"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg> </div>
+                            <div class="menu__title">Account Settings </div>
+                        </a>
+                    </li>
+            </ul>
+        </div>
+        <!-- END: Mobile Menu -->
+        <div class="flex">
+            <!-- BEGIN: Side Menu -->
+            <nav class="side-nav">
+                <a href="https://www.netxcell.com" class="intro-x flex items-center pl-5 pt-4">
+                    <img alt="Netxcell Logo"  src="./images/nxl.logo.png">
+                </a>
+                <div class="side-nav__devider my-6"></div>
+                <ul>
+                    <li>
+                        <a href="index.html" class="side-menu">
+                            <div class="side-menu__icon"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg> </div>
+                            <div class="side-menu__title"> Dashboard </div>
+                        </a>
+                    </li>
+                    
+                    <li class="side-nav__devider my-6"></li>
+                    
+                    <li>
+                        <a href="javascript:;.html" class="side-menu side-menu--active">
+                            
+                                <div class="side-menu__icon"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-users"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg> </div>
+                                <div class="side-menu__title"> Users <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down side-menu__sub-icon"><polyline points="6 9 12 15 18 9"></polyline></svg> </div>
+                             </a>
+                        <ul class="side-menu__sub-open">
+                            <li>
+                                <a href="Userform.html" class="side-menu side-menu--active">
+                                    <div class="side-menu__icon"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-activity"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg> </div>
+                                    <div class="side-menu__title"> Create User </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="Userslist.html" class="side-menu">
+                                    <div class="side-menu__icon"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-activity"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg> </div>
+                                    <div class="side-menu__title"> Users List </div>
+                                </a>
+                            </li>
+                          
+                        </ul>
+                    </li>
+                    <li class="side-nav__devider my-6"></li>
+                    <li>
+                        <a href="javascript:;" class="side-menu">
+                            <div class="side-menu__icon"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg> </div>
+                            <div class="side-menu__title"> Reports <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down side-menu__sub-icon">
+                                    <polyline points="6 9 12 15 18 9"></polyline>
+                                </svg> </div>
+                        </a>
+                        <ul class="">
+                            <li>
+                                <a href="reports_tabular.html" class="side-menu">
+                                    <div class="side-menu__icon"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-activity">
+                                            <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+                                        </svg> </div>
+                                    <div class="side-menu__title"> Tabular Reports </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="reports_grpahical.html" class="side-menu">
+                                    <div class="side-menu__icon"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-activity">
+                                            <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+                                        </svg> </div>
+                                    <div class="side-menu__title"> Graphical reports </div>
+                                </a>
+                            </li>
+                            
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:;" class="side-menu">
+                            <div class="side-menu__icon"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-message-square mx-auto"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg> </div>
+                            <div class="side-menu__title"> Messaging <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down side-menu__sub-icon">
+                                    <polyline points="6 9 12 15 18 9"></polyline>
+                                </svg> </div>
+                        </a>
+                        <ul class="">
+                            <li>
+                                <a href="Message_Template.html" class="side-menu">
+                                    <div class="side-menu__icon"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-activity">
+                                            <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+                                        </svg> </div>
+                                    <div class="side-menu__title"> Template Message </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="Template_list.html" class="side-menu">
+                                    <div class="side-menu__icon"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-activity">
+                                            <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+                                        </svg> </div>
+                                    <div class="side-menu__title"> Template List </div>
+                                </a>
+                            </li>
+                            
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="account_setting.html" class="side-menu ">
+                            <div class="side-menu__icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-settings mx-auto"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg> </div>
+                            <div class="side-menu__title">Account Settings </div>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- END: Side Menu -->
+            <!-- BEGIN: Content -->
+            <div class="content">
+                <!-- BEGIN: Top Bar -->
+                <div class="top-bar">
+                    <!-- BEGIN: Breadcrumb -->
+                    <div class="-intro-x breadcrumb mr-auto hidden sm:flex"> <a href="index.html" class="">Home</a> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right breadcrumb__icon"><polyline points="9 18 15 12 9 6"></polyline></svg> <a href="#" class="breadcrumb--active">Create User</a> </div>
+                    <!-- END: Breadcrumb -->
+                    <!-- BEGIN: Search -->
+                    <div class="intro-x relative mr-3 sm:mr-6">
+                       
+                    </div>
+                    <!-- END: Search -->
+                    <!-- BEGIN: Notifications  -->
+                    <div class="relative mr-auto sm:mr-6">
+                         </div>
+                    <!-- END: Notifications -->
+                    <!-- BEGIN: Account Menu -->
+                    <div class="intro-x dropdown w-8 h-8 relative">
+                        <div class="dropdown-toggle w-12 h-12 rounded-full overflow-hidden shadow-lg image-fit zoom-in">
+                            <img alt="Provider_logo" src="./images/profile.jpg">
+                        </div>
+                        <div class="dropdown-box mt-10 absolute w-56 top-0 right-0 z-20">
+                            <div class="dropdown-box__content box bg-theme-38 text-white">
+                                <div class="p-4 border-b border-theme-40">
+                                    <div class="font-medium">SunNext</div>
+                                    <div class="text-xs text-theme-41">Service Provider</div>
+                                </div>
+                                <div class="p-2">
+                                    <a href="view_profile.html" class="flex items-center block p-2 transition duration-300 ease-in-out hover:bg-theme-1 rounded-md"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user w-4 h-4 mr-2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg> Profile </a>
+                                    <a href="forgot_password.html" class="flex items-center block p-2 transition duration-300 ease-in-out hover:bg-theme-1 rounded-md"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-lock w-4 h-4 mr-2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg> Reset Password </a>
+                                     </div>
+                                <div class="p-2 border-t border-theme-40">
+                                    <a href="login.html" class="flex items-center block p-2 transition duration-300 ease-in-out hover:bg-theme-1 rounded-md"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-toggle-right w-4 h-4 mr-2"><rect x="1" y="5" width="22" height="14" rx="7" ry="7"></rect><circle cx="16" cy="12" r="3"></circle></svg> Logout </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END: Account Menu -->
+                </div>
+                <!-- END: Top Bar -->
+                
+                <div class="grid grid-cols-12 gap-6 mt-5">
+                   
+                        <div class="intro-y col-span-12 lg:col-span-12">
+                            <!-- BEGIN: User Form -->
+                            <div class="intro-y box mt-5">
+                             <div class="flex flex-col sm:flex-row items-center p-5 border-b border-gray-200">
+                                 <h2 class="font-medium text-base mr-auto">
+                                    Enter User Details
+                                 </h2>
+                                 <!-- <div class="w-full sm:w-auto flex items-center sm:ml-auto mt-3 sm:mt-0">
+                                     <button class="button text-white bg-theme-1 shadow-md mr-2">Add New User</button>  
+                                 </div> -->
+                             </div>
+                             <div class="p-5" id="User-form">
+                                 <div class="preview">
+                                     <form class="validate-form" novalidate="novalidate">
+                                        <div class="grid grid-cols-12 gap-4 row-gap-5 mt-5">
+                                            <div class="intro-y col-span-12 sm:col-span-6">
+                                                <div>
+                                                    <label class="flex flex-col sm:flex-row">User Name <span class="sm:ml-auto mt-1 sm:mt-0 text-xs text-gray-600">Required, at least 2 characters</span> </label>
+                                                    <input type="text" name="name" class="input w-full border mt-2" placeholder="Service Provider Name" minlength="2" required="">
+                                                </div>
+                                            </div>
+                                            <div class="intro-y col-span-12 sm:col-span-6"></div>
+                                            <div class="intro-y col-span-12 sm:col-span-6">
+                                                <div class="mb-2">
+                                                    <label class="flex flex-col sm:flex-row"> Email <span class="sm:ml-auto mt-1 sm:mt-0 text-xs text-gray-600">Required, email address format</span> </label>
+                                                    <input type="email" name="email" class="input w-full border mt-2" placeholder="example@gmail.com" required="">
+                                                </div>
+                                            </div>
+                                            <div class="intro-y col-span-12 sm:col-span-6">
+                                                <div class="mb-2">
+                                                    <label class="flex flex-col sm:flex-row"> Password <span class="sm:ml-auto mt-1 sm:mt-0 text-xs text-gray-600">Required, at least 6 characters</span> </label>
+                                                    <input type="password" name="password" class="input w-full border mt-2" placeholder="******" minlength="6" required="">
+                                                </div>
+                                            </div>
+                                            <div class="intro-y col-span-12 sm:col-span-6">
+                                                <label class="flex flex-col sm:flex-row">Mobile Number<span class="sm:ml-auto mt-1 sm:mt-0 text-xs text-gray-600">Required, Mobile Number only</span> </label>
+                                        <input type="text" name="mobile" class="input w-full border mt-2" placeholder="9999999990" minlength="10" maxlength="10" required="">
+                                   </div>
+                                   <div class="intro-y col-span-12 sm:col-span-6">
+                                    <label class="flex flex-col sm:flex-row"> Alternate Mobile Number<span class="sm:ml-auto mt-1 sm:mt-0 text-xs text-gray-600">Required, Mobile Number only</span> </label>
+                            <input type="text" name="altmobile" class="input w-full border mt-2" placeholder="9999999990" minlength="10" maxlength="10" >
+                       </div>
+                                            <div class="intro-y col-span-12 sm:col-span-6">
+                                                <div class="mb-2">Select Services</div>
+                                                <div class="multiselect input w-full border flex-1" id="selectservice" multiple="multiple" data-target="multi-0">
+                                                    <div class="title noselect">
+                                                        <span class="text">Please Select</span>
+                                                        <span class="close-icon">&times;</span>
+                                                        <span class="expand-icon">&plus;</span>
+                                                    </div>
+                                                    <div class="container">
+                                                        <option value="S1">Service-1</option>
+                                                        <option value="S2">Service-2</option>
+                                                        <option value="S3">Service-3</option>
+                                                        <option value="S4">Service-4</option>
+                                                        <option value="S5">Service-5</option>
+                                                        <option value="S6">Service-6</option>
+                                                        <option value="S7">Service-7</option>
+                                                        <option value="S8">Service-8</option>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="intro-y col-span-12 sm:col-span-6">
+                                                <div class="mb-2">Select Report</div>
+                                                <div class="multiselect input w-full border flex-1" id="selectreport" multiple="multiple" data-target="multi-0">
+                                                    <div class="title noselect">
+                                                        <span class="text">Please Select</span>
+                                                        <span class="close-icon">&times;</span>
+                                                        <span class="expand-icon">&plus;</span>
+                                                    </div>
+                                                    <div class="container">
+                                                        <option value="R1">Report-1</option>
+                                                        <option value="R2">Report-2</option>
+                                                        <option value="R3">Report-3</option>
+                                                        <option value="R4">Report-4</option>
+                                                        <option value="R5">Report-5</option>
+                                                        <option value="R6">Report-6</option>
+                                                        <option value="R7">Report-7</option>
+                                                        <option value="R8">Report-8</option>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                          
+                                            <div class="intro-y col-span-12 flex items-center justify-center sm:justify-end mt-5">
+                                                
+                                                <button class="button w-24 justify-center block bg-theme-1 text-white ml-2">Submit</button>
+                                            </div>
+                                        </div>
+                                         </form>
+                                   
+                                 </div>
+                               
+                             </div>
+                             
+                         </div>
+                         <!-- END: User Form -->
+                         
+                         </div>
+                     
+                    </div>
+                </div>
+            </div>
+            <!-- END: Content -->
+        </div>
+        <!-- BEGIN: JS Assets-->
+        <script src="./css_js/script.js"></script>
+        <script src="./css_js/mutliselect.js"></script>
+        <!-- END: JS Assets-->
+    
+</body>
+</html>
